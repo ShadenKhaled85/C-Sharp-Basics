@@ -48,7 +48,7 @@
             // Declare for reference from Type Point (p1) referencing to null
             // CLR will allocate 4 bytes(by default) to p1 on STACK
             // p1 can refer to an object of type Point
-            // 4 bytes in STACK & 0 bytes in HEAP
+            // 4 bytes in STACK & 0 bytes in HEAPP
 
             p1 = new Point();
             // 1) Allocate the required bytes on HEAP (8 bytes)
